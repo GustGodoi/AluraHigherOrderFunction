@@ -29,9 +29,9 @@
 
 // console.log(usuarioLogin("Luke"));
 
-// O código acima utiliza a mesma função apra "logar" a pessoa e também printar o
+// O código acima utiliza a mesma função para "logar" a pessoa e também printar o
 // resultado. Devemos melhorar isso, fracionando mais o código, distribuindo melhor 
-// as funções. Daí vem a ideia do HIGHER ORDER FUNCTION, onde se compoem funções para
+// as funções. Daí vem a ideia do HIGHER ORDER FUNCTION, onde se compõem funções para
 // separar tarefas diferentes. O mesmo código fica da seguinte forma:
 // const acesso = (nome) => {
 //     return `${nome} logou com sucesso no sistema.`
@@ -94,7 +94,7 @@ const login = (pessoa, autentica) => {
 
 console.log(login({cargo: `diretoria`, nome: `Leia`}, autentica))
 
-// O código acima exemplifica o conceito de HIGHER ORDER bem, sendo a função login de 
-// maior importância, ela utiliza outras funções de menor importãncia, que devem ser
-// criadas anteriormente. Funções no JS podem recebemr obejetos como parâmetro, assim 
-// também comom outras funções.
+// O código acima exemplifica o conceito de HIGHER ORDER bem, sendo a função "login" de 
+// maior importância, ela utiliza outras funções de menor importância, que devem ser
+// criadas anteriormente. Funções no JS podem receber objetos como parâmetro, assim 
+// também como outras funções.
